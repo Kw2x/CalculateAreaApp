@@ -1,20 +1,16 @@
 import java.util.Scanner;
 
-
-
 public class AreaApp{
 	
 	public static void main(String[] args) {
 		
 		System.out.println("Welcome to the AreaApp!");
 		
-		Scanner myObj = new Scanner(System.in);
+		Scanner myObj = new Scanner(System.in); // Use Scanner to get input
 		
-		System.out.println("Please enter the first number");
+		System.out.println("Please enter two numbers to find the area");
 		
 		double input1 = myObj.nextDouble();
-		
-		System.out.println("Please enter second number");
 		
 		double input2 = myObj.nextDouble();
 		
@@ -22,7 +18,7 @@ public class AreaApp{
 		
 		System.out.println(total);
 		
-		myObj.close();
+		myObj.close(); // This closes the scanner class
 		
 	}
 }
