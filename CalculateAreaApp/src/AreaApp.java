@@ -19,8 +19,8 @@ public class AreaApp{
 		
 		double input1 = myObj.nextDouble();
 		double input2 = myObj.nextDouble();
-		double circleArea = (input1 * input2 )*Math.PI;
-		
+		double circleArea = (input1 * input2)*Math.PI;
+		double squareArea = (input1 * input2);
 
 		/*if(myObj.equals('c')) {
 			double circleArea = (input1 * input2 )*Math.PI;
