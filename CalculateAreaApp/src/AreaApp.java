@@ -25,10 +25,11 @@ public class AreaApp{
 		if(c.equals(c) && c.equals(c))
 			System.out.println(("The area of the circle is " + 	circleArea));
 		
-		else 
+		else if(s.equals(s) &&	s.equals(s))
 			System.out.println(squareArea);
 		
-		System.out.println();
+		else
+		System.out.println("That is not a circle or square");
 		
  
 		c.close(); // This closes the scanner class
