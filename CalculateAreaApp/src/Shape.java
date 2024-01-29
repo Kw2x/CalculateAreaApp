@@ -1,16 +1,13 @@
+import java.util.Scanner;
 
 public class Shape {
 	
-		static double c;
-		static double s;
-		
-		public static void getCircleArea() {
-			double circleArea = (c * c)*Math.PI;
-			System.out.println(circleArea);
-		}
-		
-	    public static void getSquareArea() {
-	    	double squareArea = (s * s);
-	    	System.out.println(squareArea);
-		}
-	}
+
+private static final double input1 = 0;
+private static final double input2 = 0;
+
+
+
+  
+}
+	
